@@ -5,6 +5,21 @@
 </head>
 <body>
     <h1>Incidents from {{ city }}</h1>
-    {{ result_list }}
+    {% for incident in incidents %}
+
+        <div class="incident">
+            <p>Name: {{ incident["name"] }}</p>
+            <p>Location: {{ incident["city"] }}</p>
+            <p>Gender: {{ incident["gender"] }}</p>
+            <p>Race: {{ incident["race"] }}</p>
+            <p>Cause of Death: {{ incident["cause_of_death"] }}</p>
+            <p>Case Status: {{ incident["case_status"] }}</p>
+            <p>Outcome: {{ incident["officer_charged"] }}</p>
+            <p>Circumstance: {{ incident["circumstance"] }}</p>
+            <p>Read More: {{ incident["news_link"] }}</p>
+        </div>
+        <br/>
+
+    {% endfor %}
 </body>
 </html>
