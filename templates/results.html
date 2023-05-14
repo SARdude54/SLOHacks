@@ -9,15 +9,15 @@
     {% for incident in incidents %}
 
         <div class="incident">
-            <p><strong>Name</strong>: {{ incident["name"] }}</p>
-            <p><strong>Location</strong>: {{ incident["city"] }}</p>
-            <p><strong>Gender</strong>: {{ incident["gender"] }}</p>
-            <p><strong>Race</strong>: {{ incident["race"] }}</p>
-            <p><strong>Cause of Death</strong>: {{ incident["cause_of_death"] }}</p>
-            <p><strong>Case Status</strong>: {{ incident["case_status"] }}</p>
-            <p><strong>Outcome</strong>: {{ incident["officer_charged"] }}</p>
-            <p><strong>Circumstance</strong>: {{ incident["circumstance"] }}</p>
-            <p><strong>Read More</strong>: <a href="{{ incident['news_link'] }}">{{ incident["news_link"] }}</a></p>
+            <p><strong style="font-size: 1.2em;">Name</strong>: {{ incident["name"] }}</p>
+            <p><strong style="font-size: 1.2em;">Location</strong>: {{ incident["city"] }}</p>
+            <p><strong style="font-size: 1.2em;">Gender</strong>: {{ incident["gender"] }}</p>
+            <p><strong style="font-size: 1.2em;">Race</strong>: {{ incident["race"] }}</p>
+            <p><strong style="font-size: 1.2em;">Cause of Death</strong>: {{ incident["cause_of_death"] }}</p>
+            <p><strong style="font-size: 1.2em;">Case Status</strong>: {{ incident["case_status"] }}</p>
+            <p><strong style="font-size: 1.2em;">Outcome</strong>: {{ incident["officer_charged"] }}</p>
+            <p><strong style="font-size: 1.2em;">Circumstance</strong>: {{ incident["circumstance"] }}</p>
+            <p><strong style="font-size: 1.2em;">Read More</strong>: <a href="{{ incident['news_link'] }}">{{ incident["news_link"] }}</a></p>
         </div>
         <br/>
 
