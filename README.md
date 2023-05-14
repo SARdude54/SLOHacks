@@ -3,7 +3,7 @@
 2023 SLOHacks Project
 
 ## To run
-This project was used by Flask. Download Flask to run the project. 
+This project uses Flask. Download Flask to run the project. 
 
 ```Bash
 pip install Flask
