@@ -1,3 +1,18 @@
+# Transparency Now
+
+2023 SLOHacks Project
+
+## To run
+This project was used by Flask. Download Flask to run the project. 
+
+```Bash
+pip install Flask
+```
+Then run
+```
+python app.py
+```
+
 ## Inspiration
 Post-pandemic, the public has been aware of much more police brutality cases which poses questions about our trust in law enforcement. As people of color, we wanted to create a resource where people are able to find past incidents of brutality in order to bring awareness about the overall safety of the neighborhood. In doing so, families are able to gauge if they are truly safe and in a community that accepts them. We wanted this to bring awareness to the public in order to incite a change in public policy aimed at reforming the legal system. It saddens us to hear about all these cases and the unfair treatment. We want to help people avoid such areas.  
 
