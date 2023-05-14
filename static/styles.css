@@ -29,7 +29,7 @@ nav a {
 
 }
 .search-bar{
-    width: 100%:
+    width: 100%;
     max-width: 700px;
     background: rgba(255,255,255,0.2);
     display: flex;
@@ -47,3 +47,5 @@ nav a {
     font-size: 20px;
     color: #cac7ff;
 }
+
+::placeholder
