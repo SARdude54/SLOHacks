@@ -21,7 +21,7 @@ def home():
         city = request.form["search"]
         return redirect(url_for("results", city=city))
     else:
-        return render_template("index.html")
+        return render_template("home.html")
 
 @app.route("/9<city>")
 def results(city):
