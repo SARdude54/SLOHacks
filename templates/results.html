@@ -10,12 +10,15 @@
 
         <div class="incident">
             <p>Name: {{ incident["name"] }}</p>
-            <p>Location: {{ incident["city"] }}</p>
             <p>Gender: {{ incident["gender"] }}</p>
             <p>Race: {{ incident["race"] }}</p>
+            <p>Location: {{ incident["city"] }}</p>
+            <p>County: {{ incident["county"] }}</p>
+            <p>State: {{ incident["state"] }}</p>
+            <p>Date: {{ incident["date"] }}</p>
             <p>Cause of Death: {{ incident["cause_of_death"] }}</p>
             <p>Case Status: {{ incident["case_status"] }}</p>
-            <p>Outcome: {{ incident["officer_charged"] }}</p>
+            <p>Officer Charged: {{ incident["officer_charged"] }}</p>
             <p>Circumstance: {{ incident["circumstance"] }}</p>
             <p>Read More: <a href="{{ incident['news_link'] }}">{{ incident["news_link"] }}</a></p>
         </div>
