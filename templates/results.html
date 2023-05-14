@@ -9,15 +9,15 @@
     {% for incident in incidents %}
 
         <div class="incident">
-            <p>Name: {{ incident["name"] }}</p>
-            <p>Location: {{ incident["city"] }}</p>
-            <p>Gender: {{ incident["gender"] }}</p>
-            <p>Race: {{ incident["race"] }}</p>
-            <p>Cause of Death: {{ incident["cause_of_death"] }}</p>
-            <p>Case Status: {{ incident["case_status"] }}</p>
-            <p>Outcome: {{ incident["officer_charged"] }}</p>
-            <p>Circumstance: {{ incident["circumstance"] }}</p>
-            <p>Read More: <a href="{{ incident['news_link'] }}">{{ incident["news_link"] }}</a></p>
+            <p><strong>Name</strong>: {{ incident["name"] }}</p>
+            <p><strong>Location</strong>: {{ incident["city"] }}</p>
+            <p><strong>Gender</strong>: {{ incident["gender"] }}</p>
+            <p><strong>Race</strong>: {{ incident["race"] }}</p>
+            <p><strong>Cause of Death</strong>: {{ incident["cause_of_death"] }}</p>
+            <p><strong>Case Status</strong>: {{ incident["case_status"] }}</p>
+            <p><strong>Outcome</strong>: {{ incident["officer_charged"] }}</p>
+            <p><strong>Circumstance</strong>: {{ incident["circumstance"] }}</p>
+            <p><strong>Read More</strong>: <a href="{{ incident['news_link'] }}">{{ incident["news_link"] }}</a></p>
         </div>
         <br/>
 
