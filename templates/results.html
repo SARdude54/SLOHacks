@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <link rel="stylesheet" href="statis/styles/results.css">
+    <link rel="stylesheet" href="static\styles\results.css">
 </head>
 <body>
     <h1>Incidents from {{ city }}</h1>
@@ -16,7 +16,7 @@
             <p>Case Status: {{ incident["case_status"] }}</p>
             <p>Outcome: {{ incident["officer_charged"] }}</p>
             <p>Circumstance: {{ incident["circumstance"] }}</p>
-            <p>Read More: {{ incident["news_link"] }}</p>
+            <p>Read More: <a href="{{ incident['news_link'] }}">{{ incident["news_link"] }}</a></p>
         </div>
         <br/>
 
