@@ -1,4 +1,10 @@
 .incident {
-    background-color: #3895B7;
-    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+}
+h1 {
+    text-align: center;
+    font-size: 3rem;
 }

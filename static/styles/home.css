@@ -1,16 +1,17 @@
 nav {
   background-color: black;
   color: white;
+  text-align: center;
 }
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
 }
 nav li {
   display: inline-block;
   width: 10%;
-  margin-right: 100px;
+  margin: 10px;
 }
 nav a {
   color: white;
@@ -20,8 +21,8 @@ nav a {
 .container{
     width: 100%;
     min-height: 100vh;
-    padding: 5%;
-    background-image: linear-gradient(rgba(0,8,24,0.3),rgba(0,8,242,0.3)), url(https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+    padding: 0%;
+    background-image: linear-gradient(rgba(0,8,24,0.3),rgba(0,8,70,0.3)), url(https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -47,11 +48,11 @@ nav a {
     outline: none;
     padding: 24px 20px;
     font-size: 20px;
-    color: #cac7ff;
+    color: #000000;
 }
 
 ::placeholder{
-    color: #cac7ff;
+    color: #000000;
 }
 
 .search-bar button img{
