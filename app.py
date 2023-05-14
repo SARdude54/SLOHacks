@@ -1,18 +1,7 @@
 from flask import Flask, render_template, redirect, url_for, request
-from data import get_data
+from data import get_data, get_result_list
 
 app = Flask(__name__)
-
-
-def get_result_list(data: list[dict], desired_city) -> str:
-    result = []
-    for incident in data:
-        if incident["city"] == desired_city:
-            result.append(incident)
-        else:
-            continue
-
-    return result
 
 
 @app.route("/", methods=["POST", "GET"])

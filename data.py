@@ -26,3 +26,14 @@ def get_data(file="static/Mapping_Police_Violence.csv") -> list[dict]:
     return lst
 
 
+def get_result_list(data: list[dict], desired_city) -> str:
+    result = []
+    for incident in data:
+        if incident["city"] == desired_city:
+            result.append(incident)
+        else:
+            continue
+
+    return result
+
+
