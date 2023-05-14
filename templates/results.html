@@ -20,8 +20,11 @@
             <p><strong style="font-size: 1.2em;">Case Status</strong>: {{ incident["case_status"] }}</p>
             <p><strong style="font-size: 1.2em;">Outcome</strong>: {{ incident["officer_charged"] }}</p>
             <p><strong style="font-size: 1.2em;">Circumstance</strong>: {{ incident["circumstance"] }}</p>
-            <p><strong style="font-size: 1.2em;">Read More</strong>: <a href="{{ incident['news_link'] }}">{{ incident["news_link"] }}</a></p>
-        </div>
+            <p><strong style="font-size: 1.2em;">Read More</strong></p>
+            {% for link in incident["news_link"] %}
+                <p><a href="{{ link }}">{{ link }}</a></p>
+            {% endfor %}
+            </div>
         <br/>
 
     {% endfor %}
