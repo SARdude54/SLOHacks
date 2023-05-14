@@ -36,6 +36,7 @@ nav a {
     align-items: center;
     border-radius: 60px;
     padding: 10px 20px;
+    backdrop-filter: blue(4px) saturate(180%);
 }
 
 .search-bar input{
@@ -48,4 +49,19 @@ nav a {
     color: #cac7ff;
 }
 
-::placeholder
+::placeholder{
+    color: #cac7ff;
+}
+
+.search-bar button img{
+    width: 25px;
+}
+
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #58629b;
+    cursor: pointer;
+}
