@@ -1,6 +1,6 @@
 import csv
 
-def get_data(file="static\Mapping_Police_Violence.csv"):
+def get_data(file="static\Mapping_Police_Violence.csv") -> list[dict]:
     lst = []
     with open(file, mode="r", encoding="utf-8") as f:
         reader = csv.reader(f, delimiter=",")
