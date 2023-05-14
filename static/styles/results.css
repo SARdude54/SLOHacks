@@ -1,14 +1,16 @@
 .container {
+    display: flex
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     min-height: 100vh;
     padding: 0%;
-    background-image: url(https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
     background-position: center;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-attachment: fixed;
 }
+
 
 .incident {
     border: 5px solid black;
@@ -18,7 +20,15 @@
     font-size: 1.2rem;
     border-radius: 10px;
 }
+
 h1 {
     text-align: center;
     font-size: 3rem;
 }
+
+
+
+
+
+
+
