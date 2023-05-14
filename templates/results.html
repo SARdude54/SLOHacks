@@ -2,8 +2,15 @@
 <html>
 <head>
     <link rel="stylesheet" href="static\styles\results.css">
+    <script>
+        window.onload = function() {
+            var container = document.querySelector(".container");
+            container.style.backgroundImage = "url('https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80')";
+        }
+    </script>
 </head>
 <body>
+<div class="container">
     <h1>Incidents from {{ city.title() }}</h1>
 
     {% for incident in incidents %}
@@ -28,5 +35,6 @@
         <br/>
 
     {% endfor %}
+</div>
 </body>
 </html>
