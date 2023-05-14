@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="static\styles\results.css">
 </head>
 <body>
-    <h1>Incidents from {{ city }}</h1>
+    <h1>Incidents from {{ city.title() }}</h1>
 
     {% for incident in incidents %}
 
