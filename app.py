@@ -24,7 +24,7 @@ def results(data: list[dict]) -> str:
 def home():
     return render_template("index.html")
 
-@app.route("/<city>")
+@app.route("/9<city>")
 def results(city):
     return render_template("results.html", city=city, result_list=results(get_data()))
 
